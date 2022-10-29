@@ -1,0 +1,250 @@
+[gd_scene load_steps=155 format=2]
+
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_9.png" type="Texture" id=1]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_16.png" type="Texture" id=2]
+[ext_resource path="res://art/monkSprites/monk/png/roll/roll_5.png" type="Texture" id=3]
+[ext_resource path="res://art/monkSprites/monk/png/roll/roll_2.png" type="Texture" id=4]
+[ext_resource path="res://art/monkSprites/monk/png/roll/roll_6.png" type="Texture" id=5]
+[ext_resource path="res://art/monkSprites/monk/png/run/run_1.png" type="Texture" id=6]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_13.png" type="Texture" id=7]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_11.png" type="Texture" id=8]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_12.png" type="Texture" id=9]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_8.png" type="Texture" id=10]
+[ext_resource path="res://art/monkSprites/monk/png/roll/roll_1.png" type="Texture" id=11]
+[ext_resource path="res://art/monkSprites/monk/png/run/run_2.png" type="Texture" id=12]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_15.png" type="Texture" id=13]
+[ext_resource path="res://art/monkSprites/monk/png/roll/roll_4.png" type="Texture" id=14]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_10.png" type="Texture" id=15]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_14.png" type="Texture" id=16]
+[ext_resource path="res://art/monkSprites/monk/png/roll/roll_3.png" type="Texture" id=17]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_10.png" type="Texture" id=18]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_1.png" type="Texture" id=19]
+[ext_resource path="res://art/monkSprites/monk/png/run/run_6.png" type="Texture" id=20]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_8.png" type="Texture" id=21]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_11.png" type="Texture" id=22]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_9.png" type="Texture" id=23]
+[ext_resource path="res://art/monkSprites/monk/png/run/run_3.png" type="Texture" id=24]
+[ext_resource path="res://art/monkSprites/monk/png/run/run_5.png" type="Texture" id=25]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_2.png" type="Texture" id=26]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_5.png" type="Texture" id=27]
+[ext_resource path="res://art/monkSprites/monk/png/run/run_7.png" type="Texture" id=28]
+[ext_resource path="res://art/monkSprites/monk/png/run/run_4.png" type="Texture" id=29]
+[ext_resource path="res://art/monkSprites/monk/png/run/run_8.png" type="Texture" id=30]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_4.png" type="Texture" id=31]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_6.png" type="Texture" id=32]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_7.png" type="Texture" id=33]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_3.png" type="Texture" id=34]
+[ext_resource path="res://art/monkSprites/monk/png/take_hit/take_hit_6.png" type="Texture" id=35]
+[ext_resource path="res://art/monkSprites/monk/png/take_hit/take_hit_5.png" type="Texture" id=36]
+[ext_resource path="res://art/monkSprites/monk/png/take_hit/take_hit_4.png" type="Texture" id=37]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_19.png" type="Texture" id=38]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_17.png" type="Texture" id=39]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_18.png" type="Texture" id=40]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_14.png" type="Texture" id=41]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_15.png" type="Texture" id=42]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_20.png" type="Texture" id=43]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_22.png" type="Texture" id=44]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_21.png" type="Texture" id=45]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_23.png" type="Texture" id=46]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_24.png" type="Texture" id=47]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_25.png" type="Texture" id=48]
+[ext_resource path="res://art/monkSprites/monk/png/take_hit/take_hit_1.png" type="Texture" id=49]
+[ext_resource path="res://art/monkSprites/monk/png/take_hit/take_hit_2.png" type="Texture" id=50]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_16.png" type="Texture" id=51]
+[ext_resource path="res://art/monkSprites/monk/png/take_hit/take_hit_3.png" type="Texture" id=52]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_12.png" type="Texture" id=53]
+[ext_resource path="res://art/monkSprites/monk/png/sp_atk/sp_atk_13.png" type="Texture" id=54]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_6.png" type="Texture" id=55]
+[ext_resource path="res://art/monkSprites/monk/png/j_up/j_up_2.png" type="Texture" id=56]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_2.png" type="Texture" id=57]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_7.png" type="Texture" id=58]
+[ext_resource path="res://art/monkSprites/monk/png/idle/idle_5.png" type="Texture" id=59]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_3.png" type="Texture" id=60]
+[ext_resource path="res://art/monkSprites/monk/png/j_down/j_down_1.png" type="Texture" id=61]
+[ext_resource path="res://art/monkSprites/monk/png/j_up/j_up_3.png" type="Texture" id=62]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_1.png" type="Texture" id=63]
+[ext_resource path="res://art/monkSprites/monk/png/idle/idle_6.png" type="Texture" id=64]
+[ext_resource path="res://art/monkSprites/monk/png/j_down/j_down_2.png" type="Texture" id=65]
+[ext_resource path="res://art/monkSprites/monk/png/j_down/j_down_3.png" type="Texture" id=66]
+[ext_resource path="res://art/monkSprites/monk/png/idle/idle_4.png" type="Texture" id=67]
+[ext_resource path="res://art/monkSprites/monk/png/j_up/j_up_1.png" type="Texture" id=68]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_4.png" type="Texture" id=69]
+[ext_resource path="res://art/monkSprites/monk/png/idle/idle_3.png" type="Texture" id=70]
+[ext_resource path="res://art/monkSprites/monk/png/meditate/meditate_5.png" type="Texture" id=71]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_18.png" type="Texture" id=72]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_23.png" type="Texture" id=73]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_22.png" type="Texture" id=74]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_1.png" type="Texture" id=75]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_4.png" type="Texture" id=76]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_7.png" type="Texture" id=77]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_8.png" type="Texture" id=78]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_9.png" type="Texture" id=79]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_6.png" type="Texture" id=80]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_2.png" type="Texture" id=81]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_5.png" type="Texture" id=82]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_10.png" type="Texture" id=83]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_20.png" type="Texture" id=84]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_11.png" type="Texture" id=85]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_19.png" type="Texture" id=86]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_3.png" type="Texture" id=87]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_21.png" type="Texture" id=88]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_15.png" type="Texture" id=89]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_16.png" type="Texture" id=90]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_17.png" type="Texture" id=91]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_14.png" type="Texture" id=92]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_3.png" type="Texture" id=93]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_11.png" type="Texture" id=94]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_6.png" type="Texture" id=95]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_4.png" type="Texture" id=96]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_5.png" type="Texture" id=97]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_7.png" type="Texture" id=98]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_8.png" type="Texture" id=99]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_10.png" type="Texture" id=100]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_2.png" type="Texture" id=101]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_1.png" type="Texture" id=102]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_12.png" type="Texture" id=103]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_9.png" type="Texture" id=104]
+[ext_resource path="res://art/monkSprites/monk/png/3_atk/3_atk_13.png" type="Texture" id=105]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_2.png" type="Texture" id=106]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_6.png" type="Texture" id=107]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_8.png" type="Texture" id=108]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_18.png" type="Texture" id=109]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_1.png" type="Texture" id=110]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_3.png" type="Texture" id=111]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_4.png" type="Texture" id=112]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_7.png" type="Texture" id=113]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_9.png" type="Texture" id=114]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_11.png" type="Texture" id=115]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_13.png" type="Texture" id=116]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_10.png" type="Texture" id=117]
+[ext_resource path="res://art/monkSprites/monk/png/idle/idle_1.png" type="Texture" id=118]
+[ext_resource path="res://art/monkSprites/monk/png/idle/idle_2.png" type="Texture" id=119]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_12.png" type="Texture" id=120]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_17.png" type="Texture" id=121]
+[ext_resource path="res://art/monkSprites/monk/png/defend/defend_5.png" type="Texture" id=122]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_1.png" type="Texture" id=123]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_4.png" type="Texture" id=124]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_13.png" type="Texture" id=125]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_14.png" type="Texture" id=126]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_16.png" type="Texture" id=127]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_11.png" type="Texture" id=128]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_12.png" type="Texture" id=129]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_8.png" type="Texture" id=130]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_9.png" type="Texture" id=131]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_10.png" type="Texture" id=132]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_15.png" type="Texture" id=133]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_5.png" type="Texture" id=134]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_2.png" type="Texture" id=135]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_7.png" type="Texture" id=136]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_3.png" type="Texture" id=137]
+[ext_resource path="res://art/monkSprites/monk/png/death/death_6.png" type="Texture" id=138]
+[ext_resource path="res://art/monkSprites/monk/png/2_atk/2_atk_12.png" type="Texture" id=139]
+[ext_resource path="res://art/monkSprites/monk/png/1_atk/1_atk_4.png" type="Texture" id=140]
+[ext_resource path="res://art/monkSprites/monk/png/air_atk/air_atk_2.png" type="Texture" id=141]
+[ext_resource path="res://art/monkSprites/monk/png/1_atk/1_atk_3.png" type="Texture" id=142]
+[ext_resource path="res://art/monkSprites/monk/png/1_atk/1_atk_5.png" type="Texture" id=143]
+[ext_resource path="res://art/monkSprites/monk/png/1_atk/1_atk_6.png" type="Texture" id=144]
+[ext_resource path="res://art/monkSprites/monk/png/air_atk/air_atk_5.png" type="Texture" id=145]
+[ext_resource path="res://art/monkSprites/monk/png/air_atk/air_atk_1.png" type="Texture" id=146]
+[ext_resource path="res://art/monkSprites/monk/png/air_atk/air_atk_6.png" type="Texture" id=147]
+[ext_resource path="res://art/monkSprites/monk/png/air_atk/air_atk_3.png" type="Texture" id=148]
+[ext_resource path="res://art/monkSprites/monk/png/1_atk/1_atk_2.png" type="Texture" id=149]
+[ext_resource path="res://art/monkSprites/monk/png/air_atk/air_atk_4.png" type="Texture" id=150]
+[ext_resource path="res://art/monkSprites/monk/png/1_atk/1_atk_1.png" type="Texture" id=151]
+[ext_resource path="res://art/monkSprites/monk/png/air_atk/air_atk_7.png" type="Texture" id=152]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 146 ), ExtResource( 141 ), ExtResource( 148 ), ExtResource( 150 ), ExtResource( 145 ), ExtResource( 147 ), ExtResource( 152 ) ],
+"loop": true,
+"name": "airAttack",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 151 ), ExtResource( 149 ), ExtResource( 142 ), ExtResource( 140 ), ExtResource( 143 ), ExtResource( 144 ) ],
+"loop": true,
+"name": "attackNumberOne",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 102 ), ExtResource( 101 ), ExtResource( 93 ), ExtResource( 96 ), ExtResource( 97 ), ExtResource( 95 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 104 ), ExtResource( 100 ), ExtResource( 94 ), ExtResource( 103 ), ExtResource( 105 ), ExtResource( 92 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 72 ), ExtResource( 86 ), ExtResource( 84 ), ExtResource( 88 ), ExtResource( 74 ), ExtResource( 73 ) ],
+"loop": true,
+"name": "attackNumberThree",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 75 ), ExtResource( 81 ), ExtResource( 87 ), ExtResource( 76 ), ExtResource( 82 ), ExtResource( 80 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 83 ), ExtResource( 85 ), ExtResource( 139 ) ],
+"loop": true,
+"name": "attackNumberTwo",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 123 ), ExtResource( 135 ), ExtResource( 137 ), ExtResource( 124 ), ExtResource( 134 ), ExtResource( 138 ), ExtResource( 136 ), ExtResource( 130 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 128 ), ExtResource( 129 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 133 ), ExtResource( 127 ), ExtResource( 121 ), ExtResource( 109 ) ],
+"loop": true,
+"name": "death",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 110 ), ExtResource( 106 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 122 ), ExtResource( 107 ), ExtResource( 113 ), ExtResource( 108 ), ExtResource( 114 ), ExtResource( 117 ), ExtResource( 115 ), ExtResource( 120 ), ExtResource( 116 ) ],
+"loop": true,
+"name": "defend",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 118 ), ExtResource( 119 ), ExtResource( 70 ), ExtResource( 67 ), ExtResource( 59 ), ExtResource( 64 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 61 ), ExtResource( 65 ), ExtResource( 66 ) ],
+"loop": true,
+"name": "jumpDown",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 68 ), ExtResource( 56 ), ExtResource( 62 ) ],
+"loop": true,
+"name": "jumpUp",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 63 ), ExtResource( 57 ), ExtResource( 60 ), ExtResource( 69 ), ExtResource( 71 ), ExtResource( 55 ), ExtResource( 58 ), ExtResource( 10 ), ExtResource( 1 ), ExtResource( 15 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 7 ), ExtResource( 16 ), ExtResource( 13 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "meditate",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ), ExtResource( 4 ), ExtResource( 17 ), ExtResource( 14 ), ExtResource( 3 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "roll",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 12 ), ExtResource( 24 ), ExtResource( 29 ), ExtResource( 25 ), ExtResource( 20 ), ExtResource( 28 ), ExtResource( 30 ) ],
+"loop": true,
+"name": "runLeft",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 12 ), ExtResource( 24 ), ExtResource( 29 ), ExtResource( 25 ), ExtResource( 20 ), ExtResource( 28 ), ExtResource( 30 ) ],
+"loop": true,
+"name": "runRight",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 26 ), ExtResource( 34 ), ExtResource( 31 ), ExtResource( 27 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 18 ), ExtResource( 22 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 51 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 38 ), ExtResource( 43 ), ExtResource( 45 ), ExtResource( 44 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ) ],
+"loop": true,
+"name": "sp_attack",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 49 ), ExtResource( 50 ), ExtResource( 52 ), ExtResource( 37 ), ExtResource( 36 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "takeHit",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 26.0
+
+[node name="Player" type="Area2D"]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="monkSprites" type="AnimatedSprite" parent="."]
+scale = Vector2( 1.5, 1.5 )
+frames = SubResource( 1 )
+animation = "runRight"
+frame = 6
+
+[node name="monkCollision" type="CollisionShape2D" parent="."]
+position = Vector2( 3, 53 )
+shape = SubResource( 2 )
